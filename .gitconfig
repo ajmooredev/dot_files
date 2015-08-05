@@ -22,5 +22,5 @@
 	rebase = true
 [rerere]
 	enabled = true
-[alais]
-	s = status -s
+[credential]
+	helper = osxkeychain
