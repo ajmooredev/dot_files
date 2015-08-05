@@ -1,0 +1,26 @@
+[user]
+	name = Andy Moore
+	email = andy@ajmooredev.com
+[core]
+	autocrlf = input
+	safecrlf = true
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+	lg = log --oneline --decorate --all --graph
+	s = status -s
+[color]
+	ui = true
+[push]
+	default = simple
+[pull]
+	rebase = true
+[rerere]
+	enabled = true
+[alais]
+	s = status -s
